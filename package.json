@@ -1,0 +1,25 @@
+{
+  "name": "hangman-node",
+  "version": "1.0.0",
+  "description": "repo for hangman game done in with node.js, homework #9, week 11",
+  "main": "game.js",
+  "dependencies": {
+    "inquirer": "^1.1.0",
+    "save": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittson/hangman-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kittson/hangman-node/issues"
+  },
+  "homepage": "https://github.com/kittson/hangman-node#readme"
+}

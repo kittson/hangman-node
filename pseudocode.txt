@@ -1,0 +1,21 @@
+Hangman game psuedo code
+
+set of words - dictionary
+pick a word at random from the dictionary, remove that word from list for next game play
+get length of word
+length of word determines how many bad guesses the player gets
+print out blank (underline) for each letter, print out number of losses and number of wins (zero initially)
+ask player for a guess
+
+if guess is one of the letters then replace the blank(s) with the letter(s), make sure to check for more than one instance of letter
+if not a good guess then print the bad letter at the bottom of screen as a "bad guess" and subtract a play from the plays total
+
+ask the player for another guess
+
+If bad guesses get to zero then tell the player he lost and ask him to play again
+add one to the lose score
+If all letters get filled (length of word) before bad guesses reaches zero then congratulate player and ask him to play again
+add one to the wins score
+
+If all words get used up in the dictionary congratulate the player in a big way and game over.
+
